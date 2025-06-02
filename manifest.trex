@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest manifest-version="0.1"
+  xmlns="http://www.tableau.com/xml/extension_manifest">
+
+  <dashboard-extension id="com.jupyter.tableau.extension" extension-version="1.0.0">
+    <default-locale>en_US</default-locale>
+
+    <name resource-id="name"/>
+    <description>Jupyter-hosted Tableau Extension</description>
+
+    <author name="Your Name"
+            email="your@email.com"
+            organization="Your Org"
+            website="http://localhost:8888/files/index.html" />
+
+    <min-api-version>1.4</min-api-version>
+
+    <source-location>
+      <url>http://localhost:8888/files/index.html</url>
+    </source-location>
+
+    <icon>
+      iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR4nGMAAQAABQABDQottAAAAABJRU5ErkJggg==
+    </icon>
+
+  </dashboard-extension>
+
+  <resources>
+    <resource id="name">
+      <text locale="en_US">Jupyter Tableau Extension</text>
+    </resource>
+  </resources>
+</manifest>
